@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar With Bootstrap</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="btn toggle-btn"><i class='bx bx-menu'></i></div>
+
+        <asdie id="sidebar">
+
+            <div>
+                <div class="d-flex align-items-center m-3">
+                    <img src="./assest/IconSet.png" style="cursor: pointer;" alt="">
+                    <a href="#" class="fw-bold text-dark ms-3">ByeWinde</a>
+                </div>
+                <div class="mx-3">
+                    <a href="#" class="ms-2 text-muted" style="font-size: 1rem; opacity: .6;">Faviorites</a>
+                    <a href="#" class="ms-2 text-muted" style="font-size: 1rem; opacity: .4;">Recently</a>
+                </div>
+                <div class="d-flex flex-column my-3 mx-5">
+                    <div class="project">
+                        <a href="#" class=" text-dark">Overview</a>
+                    </div>
+                    <div class="project">
+                        <a href="#" class=" text-dark">Project</a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div>
+                <div class="ms-4 text-muted" style="opacity: .4;">Dashboards</div>
+                <ul class="sidbear-nav">
+                    <li class="sidbear-item"><a href="#" class="sidebar-link">
+                            <i class='bx bxs-circle-three-quarter'></i>
+                            <span>Overview</span>
+                        </a>
+                    </li>
+                    <li class="sidbear-item"><a href="#" class="sidebar-link">
+                            <i class='bx bx-chevron-right' style="opacity: .2;"></i>
+                            <i class='bx bx-shopping-bag'></i>
+                            <span>eCommerce</span>
+                        </a>
+                    </li>
+                    </li>
+                    <li class="sidbear-item"><a href="#" class="sidebar-link">
+                            <i class='bx bx-chevron-right' style="opacity: .2;"></i>
+                            <i class='bx bx-folder'></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="sidbear-item"><a href="#" class="sidebar-link">
+                            <i class='bx bx-chevron-right' style="opacity: .2;"></i>
+                            <i class='bx bx-book-open'></i>
+                            <span>Online Courses</span>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div>
+                <div class="ms-4 text-muted" style="opacity: .4;">Pages</div>
+                <ul class="sidbear-nav">
+                    <li class="sidbear-item"><a href="#" class="sidebar-link">
+                            <i class='bx bx-chevron-right' style="opacity: .2;"></i>
+                            <i class='bx bxs-user-rectangle'></i>
+                            <span>User Profile</span>
+                        </a>
+                        <ul class="mx-4">
+                            <li class="my-3"><a href="#" class="text-dark">Overview</a></li>
+                            <li class="my-3"><a href="#" class="text-dark">Projects</a></li>
+                            <li class="my-3"><a href="#" class="text-dark">Campaigns</a></li>
+                            <li class="my-3"><a href="#" class="text-dark">Documents</a></li>
+                            <li class="my-3"><a href="#" class="text-dark">Followers</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidbear-item"><a href="#" class="sidebar-link">
+                            <i class='bx bx-chevron-right' style="opacity: .2;"></i>
+                            <i class='bx bxs-user-account'></i>
+                            <span>Account</span>
+                        </a>
+                    </li>
+                    </li>
+                    <li class="sidbear-item"><a href="#" class="sidebar-link">
+                            <i class='bx bx-chevron-right' style="opacity: .2;"></i>
+                            <i class='bx bx-sidebar'></i>
+                            <span>Corporate</span>
+                        </a>
+                    </li>
+                    <li class="sidbear-item"><a href="#" class="sidebar-link">
+                            <i class='bx bx-chevron-right' style="opacity: .2;"></i>
+                            <i class='bx bx-book'></i>
+                            <span>Blog</span>
+                        </a>
+                    </li>
+                    <li class="sidbear-item"><a href="#" class="sidebar-link">
+                            <i class='bx bx-chevron-right' style="opacity: .2;"></i>
+                            <i class='bx bx-conversation'></i>
+                            <span>Social</span>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class='bx bx-log-out'></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+
+        </asdie>
+        <aside id="sidebarRight">
+
+        </aside>
+        <div class="main p-3">
+            <div class="container mt-4 border-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-4 dash-1">
+                        <a href="#" class="text-dark" style="font-size: 25px;"><i class='bx bx-book'></i></a>
+                        <a href="#" class="text-dark" style="font-size: 25px;"><i class='bx bx-star'></i></a>
+                        <a href="#" class="text-dark mx-4 dashboards" style="opacity: .4;">Dashboards </a>
+                        <a href="#" class="text-dark">Default</a>
+                    </div>
+                    <div class="col-12 col-md-4 dash-1">
+                        <form class="search">
+                            <input type="text" placeholder="search" class="rounded">
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-4 dash-1">
+                        <a href="#" class="text-dark" style="font-size: 25px;"><i class='bx bx-sun'></i></a>
+                        <a href="#" class="text-dark" style="font-size: 25px;"><i class='bx bx-time'></i></a>
+                        <a href="#" class="text-dark" style="font-size: 25px;"><i class='bx bxs-bell-ring'></i></a>
+                        <a href="#" class="text-dark" style="font-size: 25px;"><i class='bx bx-book'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container my-4">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div style="cursor: pointer;">Overview</div>
+                    <div style="opacity: .4; cursor: pointer;"><i class='bx bx-chevron-down'></i> Today</div>
+                </div>
+                <div class="row my-4 custom-gap">
+                    <div class="col-lg-3 col-md-6 mb-4 Views">
+                        <div class="my-4">Views</div>
+                        <div>
+                            <div style="font-size: 2rem;" class="fw-bold" id="views">7265
+                                <span class="mx-3" style="font-size: 1rem;">+11.02%
+                                    <i class='bx bx-line-chart mx-2' style="font-size: 1rem;"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 Views">
+                        <div class="my-4">Visits</div>
+                        <div>
+                            <div style="font-size: 2rem;" class="fw-bold" id="visits">3671
+                                <span class="mx-3" style="font-size: 1rem;">-0.03%
+                                    <i class='bx bx-line-chart-down mx-2' style="font-size: 1rem;"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 Views">
+                        <div class="my-4">New Users</div>
+                        <div>
+                            <div style="font-size: 2rem;" class="fw-bold" id="new-users">156
+                                <span class="mx-3" style="font-size: 1rem;">+15.03%
+                                    <i class='bx bx-line-chart mx-2' style="font-size: 1rem;"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 Views">
+                        <div class="my-4">Active Users</div>
+                        <div>
+                            <div style="font-size: 2rem;" class="fw-bold" id="active-users">2,318
+                                <span class="mx-3" style="font-size: 1rem;">+6.08%
+                                    <i class='bx bx-line-chart mx-2' style="font-size: 1rem;"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="container">
+                <div class="row">
+                  
+                  <div class="col-12 col-lg-6 mb-4"> 
+                    <div style="background: #f0f0f0; border-radius: 15px;" class="d-flex flex-column">
+                      <div class="d-flex align-items-center justify-content-center">
+                        <div class="mx-auto my-3 px-1 py-4 fw-bold">Total Users</div>
+                        <div class="mx-auto my-3 px-1 py-4" style="color: #1C1C1C; opacity: .4;">Total Projects</div>
+                        <div class="mx-auto my-3 px-1 py-4" style="color: #1C1C1C; opacity: .4;">Operating Status <span>|</span></div>
+                        <div class="mx-auto my-3 px-1 py-4 year" style="position: relative;">This year</div>
+                        <div class="mx-auto my-3 px-1 py-4 year-1" style="position: relative;">Last year</div>
+                      </div>
+                      <div> 
+                        <canvas id="myChart" style="padding: 35px;"></canvas>
+                      </div>
+                    </div>
+                  </div>
+              
+                 
+                  <div class="col-12 col-lg-6 mb-4  anlyse"> 
+                    <div class="d-flex flex-column align-items-center py-4 traffic" style="background: #f0f0f0;">
+                      <div class="fw-bold">Traffic by Website</div>
+                      <div class="social-media">
+                        <div>Google</div>
+                        <i class='bx bx-minus' style="color: 1C1C1C;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                      </div>
+                      <div class="social-media">
+                        <div>Youtube</div>
+                        
+                        <i class='bx bx-minus' style="color: 1C1C1C; "></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                     </div>
+                     <div class="social-media">
+                        <div>
+                            Instagram
+                        </div>
+                        
+                        <i class='bx bx-minus' style="color: 1C1C1C;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                     </div>
+                     <div class="social-media">
+                        <div>Pinterest</div>
+                        
+                        <i class='bx bx-minus' style="color: 1C1C1C;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                     </div>
+                     <div class="social-media">
+                        <div>Facebook</div>
+                        
+                        <i class='bx bx-minus' style="color: 1C1C1C;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                     </div>
+                     <div class="social-media">
+                        <div>Twitter</div>
+                        
+                        <i class='bx bx-minus' style="color: 1C1C1C;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  
+                  <div class="col-12 col-lg-6 mb-4"> 
+                    <div style="background: #f0f0f0; border-radius: 15px;" class="d-flex flex-column">
+                      <div class="d-flex align-items-center justify-content-center">
+                        <div class="mx-auto my-3 px-1 py-4 fw-bold">Total Users</div>
+                        <div class="mx-auto my-3 px-1 py-4" style="color: #1C1C1C; opacity: .4;">Total Projects</div>
+                        <div class="mx-auto my-3 px-1 py-4" style="color: #1C1C1C; opacity: .4;">Operating Status <span>|</span></div>
+                        <div class="mx-auto my-3 px-1 py-4 year" style="position: relative;">This year</div>
+                        <div class="mx-auto my-3 px-1 py-4 year-1" style="position: relative;">Last year</div>
+                      </div>
+                      <div> 
+                        <canvas id="myBar" style="padding: 35px;"></canvas>
+                      </div>
+                    </div>
+                  </div>
+              
+                 
+                  <div class="col-12 col-lg-6 mb-4  anlyse"> 
+                    <div class="d-flex flex-column align-items-center py-4 traffic" style="background: #f0f0f0;">
+                      <div class="fw-bold">Traffic by Website</div>
+                      <div class="social-media">
+                        <div>Google</div>
+                        <i class='bx bx-minus' style="color: 1C1C1C;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                      </div>
+                      <div class="social-media">
+                        <div>Youtube</div>
+                        
+                        <i class='bx bx-minus' style="color: 1C1C1C; "></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                     </div>
+                     <div class="social-media">
+                        <div>
+                            Instagram
+                        </div>
+                        
+                        <i class='bx bx-minus' style="color: 1C1C1C;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                     </div>
+                     <div class="social-media">
+                        <div>Pinterest</div>
+                        
+                        <i class='bx bx-minus' style="color: 1C1C1C;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                     </div>
+                     <div class="social-media">
+                        <div>Facebook</div>
+                        
+                        <i class='bx bx-minus' style="color: 1C1C1C;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                     </div>
+                     <div class="social-media">
+                        <div>Twitter</div>
+                        
+                        <i class='bx bx-minus' style="color: 1C1C1C;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .4;"></i>
+                        <i class='bx bx-minus' style="color: 1C1C1C; opacity: .1;"></i>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              
+              
+           
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>
